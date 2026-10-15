@@ -12,3 +12,5 @@ h1,h2,h3,.balance-card strong{font-family:'Poppins',system-ui,sans-serif}
 :where(.expense){color:var(--red)!important}
 :where(.summary-grid .expense){color:#ff6b73!important}
 :where(.date-filters button){font-family:'Poppins',system-ui,sans-serif!important}
+:where(.primary-button){font-family:'Poppins',system-ui,sans-serif!important}
+:where(.delete-button){width:auto;height:auto;min-width:24px;padding:0;border:0;border-radius:0;background:transparent;color:var(--red);font:600 22px/1 'Poppins',system-ui,sans-serif;display:grid;place-items:center;cursor:pointer;flex:0 0 auto}
