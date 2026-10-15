@@ -15,3 +15,9 @@ h1,h2,h3,.balance-card strong{font-family:'Poppins'}
 :where(.primary-button){font-family:'Poppins'!important}
 :where(.delete-button){width:auto;height:auto;min-width:24px;padding:0;border:0;border-radius:0;background:transparent;color:var(--red);font:600 22px/1 'Poppins';display:grid;place-items:center;cursor:pointer;flex:0 0 auto}
 :where(.type-option){font-family:'Poppins'!important}
+@media(max-width:500px){
+  .date-filters{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;margin-top:14px}
+  .date-filters button{grid-column:1 / -1;justify-self:end;padding:0;margin-top:2px}
+  .modal-backdrop{height:100dvh;min-height:100vh;display:flex;align-items:flex-start;justify-content:center;overflow-y:auto;overscroll-behavior:contain;padding:8px;padding-top:max(8px,env(safe-area-inset-top));padding-bottom:max(8px,env(safe-area-inset-bottom))}
+  .modal{width:100%;max-width:620px;max-height:calc(100dvh - 16px);overflow-y:auto;margin:0;border-radius:25px;padding:20px 17px}
+}
